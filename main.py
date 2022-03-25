@@ -9,7 +9,7 @@ the_dictionary = {
 
 # In Python you can just print whatever months where the units sold == 200
 # month = key
-# units_sold = value with key
+# units_sold = value of key
 for (month, units_sold) in the_dictionary.items():
     if units_sold == 200:
         print(month)
